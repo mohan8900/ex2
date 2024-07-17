@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoopTech - People</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url(img.png);
+            background-size: cover;
+            color: white;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo{
+            font-size: 35px;
+            font-weight: bold;
+            padding-left: 60px;
+            
+        }
+         .red {
+            color: red;
+        }
+         .white {
+            color: white;
+        }
+        .nav {
+            display: flex;
+            align-items: center;
+            padding-left: 200px;
+            gap: 20px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .nav a:hover {
+            color: red;
+        }
+        .search-bar {
+            display: flex;
+           padding-left: 150px;
+        }
+        .search-bar input {
+            padding: 5px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            background-color: #585656;
+            color: white;
+            
+        }
+        .search-bar button {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            background: red;
+            color:white;
+            cursor: pointer;
+            
+        }
+        .people {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.person {
+    text-align: center;
+}
+
+.person img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+        background: red;
+        text-align: center;
+        font-size: 15px;
+        padding: 1px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <span class="red">R</span><span class="white">OOP</span><span class="red">T</span><span class="white">ECH</span>
+            </div>
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="product.html">Products</a>
+                <a href="people.html">People</a>
+                <a href="contact.html">Contact</a>
+                <div class="search-bar">
+                    <input  type="text" placeholder="Enter to Search">
+                    <button>Search</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="people">
+            <div class="person">
+                <img src="1.png" alt="Roop Sagar">
+                <h3>SHETY</h3>
+                <p>CEO</p>
+            </div>
+            <div class="person">
+                <img src="2.png" alt="Ratan Tata">
+                <h3>LENA</h3>
+                <p>CEO, Co-Founder</p>
+            </div>
+            <div class="person">
+                <img src="3.png" alt="Steve Jobs">
+                <h3>JOBS</h3>
+                <p>CTO, Co-Founder</p>
+            </div>
+            <div class="person">
+                <img src="4.png" alt="Sundar">
+                <h3>SELVI</h3>
+                <p>DIRECTOR</p>
+            </div>
+            <div class="person">
+                <img src="5.png" alt="Walt Disney">
+                <h3>DISNEY</h3>
+                <p>Asst. Director</p>
+            </div>
+            <div class="person">
+                <img src="6.png" alt="Elon Musk">
+                <h3>MALINA</h3>
+                <p>Dy. Director</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>DESIGNED AND DEVELOPED MOHANRAJ(212221230064)</p>
+    </footer>
+</body>
+</html>

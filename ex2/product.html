@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoopTech - Products</title>
+    <style>
+        body {
+            background-image: url(img.png);
+            background-size: cover;
+            color: white;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo{
+            font-size: 35px;
+            font-weight: bold;
+            padding-left: 60px;
+            
+        }
+         .red {
+            color: red;
+        }
+         .white {
+            color: white;
+        }
+        .nav {
+            display: flex;
+            align-items: center;
+            padding-left: 200px;
+            gap: 20px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .nav a:hover {
+            color: red;
+        }
+        .search-bar {
+            display: flex;
+           padding-left: 150px;
+        }
+        .search-bar input {
+            padding: 5px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            background-color: #585656;
+            color: white;
+            
+        }
+        .search-bar button {
+            padding: 5px 10px;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            background: red;
+            color:white;
+            cursor: pointer;
+            
+        }
+        .products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+    width: 80%;
+   
+    margin: 0 auto;
+}
+
+.product {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #444;
+    text-align: center;
+}
+
+.product h3 {
+    color: #f00;
+    margin-bottom: 10px;
+}
+
+footer {
+        background: red;
+        text-align: center;
+        font-size: 15px;
+        padding: 1px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <span class="red">R</span><span class="white">OOP</span><span class="red">T</span><span class="white">ECH</span>
+            </div>
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="product.html">Products</a>
+                <a href="people.html">People</a>
+                <a href="contact.html">Contact</a>
+                <div class="search-bar">
+                    <input  type="text" placeholder="Enter to Search">
+                    <button>Search</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="products">
+            <div class="product">
+                <h3>C++</h3>
+                <p>Efficiency Redefined: Harnessing the Power of C++ for Next-Level Development</p>
+            </div>
+            <div class="product">
+                <h3>C</h3>
+                <p>Crafting Performance: Where Precision Meets C Programming.</p>
+            </div>
+            <div class="product">
+                <h3>JAVASCRIPT</h3>
+                <p>Scripting Success: Unleashing the Power of JavaScript.</p>
+            </div>
+            <div class="product">
+                <h3>PHP</h3>
+                <p>PHP is a server-side scripting language that is embedded in HTML.</p>
+            </div>
+            <div class="product">
+                <h3>PYTHON</h3>
+                <p>Unlocking Innovation: Python Paving the Way to Progress.</p>
+            </div>
+            <div class="product">
+                <h3>SQL</h3>
+                <p>SQL is a standard language for accessing and manipulating databases.</p>
+            </div>
+            <div class="product">
+                <h3>SHELL</h3>
+                <p>Shell can be accessed by users using a command line interface.</p>
+            </div>
+            <div class="product">
+                <h3>RUBY</h3>
+                <p>Ruby: Where Simplicity Meets Power in Programming.</p>
+            </div>
+            <div class="product">
+                <h3>TYPESCRIPT</h3>
+                <p>Empower Your Code: Embrace the Future with TypeScript.</p>
+            </div>
+            <div class="product">
+                <h3>F#</h3>
+                <p>F# is an Open-source programming language with a lot of features.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>DESIGNED AND DEVELOPED MOHANRAJ(212221230064)</p>
+    </footer>
+</body>
+</html>
